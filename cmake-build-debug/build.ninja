@@ -61,24 +61,6 @@ build CMakeFiles/index.dir/src/file.c.obj: C_COMPILER__index_Debug C$:/Users/Nev
   OBJECT_DIR = CMakeFiles\index.dir
   OBJECT_FILE_DIR = CMakeFiles\index.dir\src
 
-build CMakeFiles/index.dir/src/header.c.obj: C_COMPILER__index_Debug C$:/Users/Never/CLionProjects/lab5/src/header.c || cmake_object_order_depends_target_index
-  DEP_FILE = CMakeFiles\index.dir\src\header.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\index.dir
-  OBJECT_FILE_DIR = CMakeFiles\index.dir\src
-
-build CMakeFiles/index.dir/src/image.c.obj: C_COMPILER__index_Debug C$:/Users/Never/CLionProjects/lab5/src/image.c || cmake_object_order_depends_target_index
-  DEP_FILE = CMakeFiles\index.dir\src\image.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\index.dir
-  OBJECT_FILE_DIR = CMakeFiles\index.dir\src
-
-build CMakeFiles/index.dir/src/utils.c.obj: C_COMPILER__index_Debug C$:/Users/Never/CLionProjects/lab5/src/utils.c || cmake_object_order_depends_target_index
-  DEP_FILE = CMakeFiles\index.dir\src\utils.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\index.dir
-  OBJECT_FILE_DIR = CMakeFiles\index.dir\src
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target index
@@ -87,7 +69,7 @@ build CMakeFiles/index.dir/src/utils.c.obj: C_COMPILER__index_Debug C$:/Users/Ne
 #############################################
 # Link the executable index.exe
 
-build index.exe: C_EXECUTABLE_LINKER__index_Debug CMakeFiles/index.dir/src/index.c.obj CMakeFiles/index.dir/src/file.c.obj CMakeFiles/index.dir/src/header.c.obj CMakeFiles/index.dir/src/image.c.obj CMakeFiles/index.dir/src/utils.c.obj
+build index.exe: C_EXECUTABLE_LINKER__index_Debug CMakeFiles/index.dir/src/index.c.obj CMakeFiles/index.dir/src/file.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\index.dir
