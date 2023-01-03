@@ -1,0 +1,14 @@
+# ninja log v5
+3	258	6944162651940885	CMakeFiles/index.dir/src/index.c.obj	fedcb2b8cfa96043
+16	170	6944170745344469	CMakeFiles/sepia-filter.dir/src/utils.obj	2ba337f7d50c5d09
+21	240	6944162651735911	CMakeFiles/index.dir/src/header.c.obj	bca8e688e2fbb32c
+27	275	6944162652158052	CMakeFiles/index.dir/src/image.c.obj	7283317085ce68bd
+5	139	6944170745015820	CMakeFiles/sepia-filter.dir/src/header.obj	1dec264a045e0539
+13	271	6944162652102328	CMakeFiles/index.dir/src/file.c.obj	c7af84d32619db39
+39	231	6943674671148924	CMakeFiles/index.dir/src/utils.c.obj	3f46ad672b50717f
+1	31	0	C:/Users/Never/CLionProjects/lab5/cmake-build-debug/CMakeFiles/cmake.verify_globs	3ae5eb380765c2cd
+1	216	6944172749907913	build.ninja	6650d2306e53830a
+2	169	6944170745304988	CMakeFiles/sepia-filter.dir/src/file.obj	58ceddb464eb2ae5
+29	194	6944170745622361	CMakeFiles/sepia-filter.dir/src/index.obj	44a81984edccc922
+21	182	6944170745492897	CMakeFiles/sepia-filter.dir/src/image.obj	b11c187ba0f7bc61
+2	19	6944171198677330	CMakeFiles/sepia-filter.dir/filter/pixel_transform.obj	f53e478943893b34
